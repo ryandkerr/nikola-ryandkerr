@@ -123,7 +123,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/stories/about.html", "About Ryan"),
+        ("/stories/about.html", "About"),
         ("/stories/projects.html", "Projects"),
         ("/index.html", "Blog"),
         ("/archive.html", "Archive"),
