@@ -123,11 +123,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/stories/about.html", "About"),
-        ("/stories/projects.html", "Projects"),
+        ("../stories/about.html", "About"),
+        ("../stories/projects.html", "Projects"),
         ("/index.html", "Blog"),
         ("/archive.html", "Archive"),
-        ("/categories/index.html", "Tags"),
+        ("../categories/index.html", "Tags"),
         # ("/rss.xml", "RSS feed"),
     ),
 }
@@ -511,7 +511,6 @@ REDIRECTIONS = []
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
 #
-# Folders containing images to be used in normal posts or pages. Images will be
 # scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE options, but
 # will have to be referenced manually to be visible on the site
 # (the thumbnail has ``.thumbnail`` added before the file extension).
