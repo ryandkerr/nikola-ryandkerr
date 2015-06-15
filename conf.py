@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Ryan Kerr"  # (translatable)
-BLOG_TITLE = "Docendo discimus"  # (translatable)
+BLOG_TITLE = "RyanDKerr.com"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "https://ryandkerr.github.io/"
